@@ -1,18 +1,47 @@
-# How to Run
+# GUI-Automation 🤖
 
-## Step 1: Clone the Repo
-Using the command `git clone <repository-url>`, you make a local copy of the repository. This is crucial for making your own changes or contributing to the project safely.
+## Project Description
 
-## Step 2: Create a Virtual Environment
-Run the command `python -m venv create` to create a virtual environment. This isolates your Python dependencies from your system Python installation, reducing the risk of conflicting packages and ensuring a secure execution environment.
+A Python-based GUI automation framework designed for automating graphical user interface interactions. This project leverages the PyAutoGUI ecosystem to programmatically control mouse movements, keyboard input, and screen capture capabilities.
 
-## Step 3: Activate the Virtual Environment
-For Windows users, use the command `create/Scripts/activate` to activate the virtual environment. This means your terminal will use the installed packages in that specific virtual environment instead of globally installed packages, which is key for security and project dependency management.
+### 🔐 Cybersecurity Applications
 
-## Step 4: Install Dependencies
-Run `pip install -r requirements.txt` to install the necessary libraries specified in the `requirements.txt` file. This command ensures that you have the exact versions of packages needed, minimizing vulnerabilities that arise from using outdated or incompatible libraries.
+- **Security Testing**: Automate vulnerability assessment workflows
+- **Process Monitoring**: Detect and track suspicious GUI-based activities
+- **Red Team Operations**: Simulate post-exploitation user interaction patterns
+- **Defense Automation**: Auto-respond to security incidents through GUI interaction
+- **Compliance Validation**: Automated security control verification
 
-## Step 5: Run the Application
-Execute the file using `python gui.py`. This launches the application, allowing you to use it as intended. Running through a virtual environment ensures that only allowed dependencies and scripts run, enhancing your security posture.
+## 📦 Technologies Used
 
-Keep the rest of the README content the same.
+| Package | Version | Purpose |
+|---------|---------|---------|
+| PyAutoGUI | 0.9.54 | Primary GUI automation and control |
+| PyScreeze | 1.0.1 | Screenshot capture & image recognition |
+| PyGetWindow | 0.0.9 | Window management and detection |
+| MouseInfo | 0.1.3 | Mouse position tracking |
+| PyRect | 0.2.0 | Rectangle geometry utilities |
+| PyMsgBox | 2.0.1 | Message dialog automation |
+| pyperclip | 1.11.0 | Clipboard operations |
+| pytweening | 1.2.0 | Animation tweening/easing functions |
+
+## 🚀 How to Run
+
+### Step 1: Clone the Repository
+git clone https://github.com/ASHENEE123/GUI-Automation.git
+cd GUI-Automation
+
+### Step 2: create virtual Env
+go to src folder and create venv with cmd
+python -m venv create
+
+### step 3 install the dependencies
+## activate the venv by cmd
+create\Scripts\activate -(windows)
+create/Scripts/activate-(linux)
+## install depen
+pip install -r requirement.txt
+
+### step 4 run the file
+python gui.py
+
